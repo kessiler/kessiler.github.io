@@ -27,7 +27,7 @@ function initCanvasScene() {
 
     canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
 
-    canvasCtx.font = 'bold ' + (windowW / 10) + 'px Roboto; sans-serif';
+    canvasCtx.font = 'bold ' + (windowW / 10) + 'px sans-serif';
     canvasCtx.textAlign = 'center';
     canvasCtx.fillText(text.value, windowW / 2, windowH / 2);
 
